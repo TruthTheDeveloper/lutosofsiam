@@ -32,7 +32,7 @@ const HomeTestimonial = () => {
     }
   };
   return (
-    <div className="mx-8 mt-14 lg:mt-0">
+    <div className="mx-8 mt-14 lg:mt-0 pt-14">
       <h1 className="text-center text-2xl my-3 lg:mt-16 font-semibold">
         Testimonials
       </h1>

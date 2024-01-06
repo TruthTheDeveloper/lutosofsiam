@@ -10,7 +10,6 @@ const HomePageHero = () => {
   return (
     <>
       <div className="relative">
-    
         
         <div className=" fixed w-[5rem] h-[5rem] bottom-4 right-0  cursor-pointer z-40 ">
         <Lottie animationData={call} loop={true}  style={{ pointerEvents: "none" }}/>;

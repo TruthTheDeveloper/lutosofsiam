@@ -7,6 +7,8 @@ import HomeRecognition from "@/molecules/HomeRecognition";
 import HomeTestimonial from "@/molecules/HomeTestimonial";
 import HomeWine from "@/molecules/HomeWine";
 import HomeTestAnimation from "@/molecules/HomeTextAnimation";
+import HomeOrder from "@/molecules/HomeOrder";
+
 
 
 const HomePage = () => {
@@ -17,6 +19,7 @@ const HomePage = () => {
             <HomeFeatured/>
             <HomeRecognition/>
             <HomeWine/>
+            <HomeOrder/>
             <HomeTestimonial/>
             <HomeHoursInfo/>
             {/* <HomeTestAnimation/> */}

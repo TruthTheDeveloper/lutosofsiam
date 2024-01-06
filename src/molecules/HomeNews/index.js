@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 const HomeNews = () => {
   return (
@@ -16,7 +17,7 @@ const HomeNews = () => {
             className="rounded-[5rem] mx-auto"
             alt="photo"
           />
-          <div className="lg:w-72  px-2  lg:ml-6 text-center">
+          <div className="lg:w-72  px-2  lg:ml-6 text-center" data-aos="zoom-in">
           <h2 className="my-4 bg-yellow-300 font-bold mx-auto w-48 text-center py-2 rounded-md mt-8">29th of december, 2023</h2>
           <p className="font-semibold text-xl ">At this time, only our Flamingo location is open. Now accepting; To-Go, Delivery & Dine-In.</p>
           </div>
@@ -30,7 +31,7 @@ const HomeNews = () => {
             className="rounded-[5rem] mx-auto"
             alt="photo"
           />
-          <div className="lg:w-72  px-2 lg:ml-6 text-center">
+          <div className="lg:w-72  px-2 lg:ml-6 text-center" data-aos="zoom-in">
           <h2 className="my-4 bg-yellow-300 font-bold w-48 mx-auto text-center py-2 rounded-md mt-8">29th of december, 2023</h2>
           <p className="font-semibold text-xl ">Sahara location is temporarily CLOSED, Now accepting walk-in reservations.</p>
           </div>
