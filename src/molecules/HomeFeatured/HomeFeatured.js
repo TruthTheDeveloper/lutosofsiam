@@ -86,7 +86,7 @@ const HomeFeatured = () => {
               className=" bg-white h-[18rem] w-[17rem] mx-auto rounded-[3rem] border shadow-lg"
               initial={{ x: -300, y: 0, opacity: 0, scale: 0.5 }}
               animate={
-                inView ? { x: 20, y: 0, opacity: 1, scale: 1, rotate: 360 } : {}
+                inView ? { x: 30, y: 0, opacity: 1, scale: 1, rotate: 360 } : {}
               }
               transition={{ duration: 1.5 }}
             >

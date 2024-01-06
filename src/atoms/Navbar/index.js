@@ -10,12 +10,12 @@ const Navbar = () => {
                 <HiMenuAlt3 size={40} />
             </div>
             <ul className="lg:flex mt-5 justify-between w-2/3 ml-auto hidden">
-                <li>Menu</li>
-                <li>Contact Us</li>
-                <li>Reservation</li>
-                <li>Order online</li>
-                <li>Shop</li>
-                <li>Career</li>
+                <li className="cursor-pointer">Menu</li>
+                <li className="cursor-pointer">Contact Us</li>
+                <li className="cursor-pointer">Reservation</li>
+                <li className="cursor-pointer">Order online</li>
+                <li className="cursor-pointer">Shop</li>
+                <li className="cursor-pointer">Career</li>
             </ul>
         </div>
     )

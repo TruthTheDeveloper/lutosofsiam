@@ -2,12 +2,21 @@
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 import { Carattere } from "next/font/google";
+import Lottie from "lottie-react";
+import call from "./call.json";
 
 const carattere = Carattere({ weight: "400", subsets: ["latin"] });
 const HomePageHero = () => {
   return (
     <>
-      <div className="">
+      <div className="relative">
+    
+        
+        <div className="">
+        <Lottie animationData={call} loop={true} className=" fixed w-[5rem] h-[5rem] bottom-4 right-0  cursor-pointer " style={{ pointerEvents: "none" }}/>;
+        </div>
+        
+     
         <h1 className="text-center text-lg sm:text-xl my-6 font-semibold text-green-600">
           Welcome to the
         </h1>

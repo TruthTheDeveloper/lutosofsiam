@@ -75,7 +75,7 @@ const HomeTestimonial = () => {
             a plane back to New York.
           </p>
           <p className="text-center font-semibold my-3">
-            Micheal b jordan -{" "}
+            Will I Am -{" "}
             <span className="text-green-500 text-sm mx-3">Food network</span>
           </p>
         </div>
@@ -86,7 +86,7 @@ const HomeTestimonial = () => {
             a plane back to New York.
           </p>
           <p className="text-center font-semibold my-3 ">
-            Micheal b jordan -{" "}
+            Micheal Jackson -{" "}
             <span className="text-green-500 text-sm mx-3">Food network</span>
           </p>
         </div>
