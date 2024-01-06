@@ -12,8 +12,8 @@ const HomePageHero = () => {
       <div className="relative">
     
         
-        <div className="">
-        <Lottie animationData={call} loop={true} className=" fixed w-[5rem] h-[5rem] bottom-4 right-0  cursor-pointer " style={{ pointerEvents: "none" }}/>;
+        <div className=" fixed w-[5rem] h-[5rem] bottom-4 right-0  cursor-pointer z-40 ">
+        <Lottie animationData={call} loop={true}  style={{ pointerEvents: "none" }}/>;
         </div>
         
      
@@ -51,12 +51,12 @@ const HomePageHero = () => {
       <div className="relative mt-16 text-sm  w-full 2xl:w-[80%] mx-auto "> 
         <Image
           src="/image/dish.png"
-          sizes="100vw"
+          // sizes="100vw"
          
           height={1300}
           width={900}
           alt="logo"
-          objectFit="cover"
+          // objectFit="cover"
           className="mx-auto"
         />
         <div className="absolute lg:top-12 lg:left-44 2xl:left-96 top-0 sm:top-36 sm:left-28 left-2 "  data-aos-duration="900" data-aos= "zoom-in">

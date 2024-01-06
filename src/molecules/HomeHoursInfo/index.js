@@ -8,7 +8,7 @@ const HomeHoursInfo = () => {
     triggerOnce: true, // Trigger animation only once
   });
   return (
-    <div className="">
+    <div className="px-4 md:px-0">
       <motion.div
       ref={ref}
         className="md:flex lg:w-[60%] bg-[#F5F8FD] mx-auto mt-12 mb-12 rounded-[5rem]"
