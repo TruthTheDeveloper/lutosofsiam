@@ -1,4 +1,6 @@
 "use client";
+import { motion } from "framer-motion";
+
 import Image from "next/image";
 import { Fade, Slide } from "react-awesome-reveal";
 
@@ -32,17 +34,20 @@ const HomeOrder = () => {
           //   height={1300}
           //   width={900}
           alt="logo"
-          // objectFit="cover"
+          objectFit="cover"
           className="mx-auto"
         />
 
         <div className="absolute inset-0 bg-black bg-opacity-50">
           <div className="flex items-center justify-center  h-full" >
-            <div data-aos="zoom-in">
+            <div data-aos="zoom-in" data-aos-once>
               <h1 className="text-white text-6xl font-semibold  ">Let&apos;s Eat</h1>
-              <button className="text-white text-xl  md:text-2xl font-medium bg-green-500 text-center w-full mt-8 py-3 rounded-full">
+              <motion.button
+            initial={{scale:1}}
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.3 }} className="text-white text-xl  md:text-2xl font-medium bg-green-500 text-center w-full mt-8 py-3 rounded-full">
                 Order Online
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>

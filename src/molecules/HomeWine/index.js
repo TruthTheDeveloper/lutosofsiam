@@ -1,13 +1,13 @@
 "use client";
+import { motion } from "framer-motion";
+
 import Image from "next/image";
 import { Carattere } from "next/font/google";
 import { Fade, Slide } from "react-awesome-reveal";
 
-
 const carattere = Carattere({ weight: "400", subsets: ["latin"] });
 
 const HomeWine = () => {
-
   return (
     <div className=" pt-8 bg-white">
       <div className="text-center my-3">
@@ -53,9 +53,14 @@ const HomeWine = () => {
           </div>
 
           <div className="text-center mx-2">
-            <button className="bg-green-600 text-sm lg:text-base text-white py-4 px-4 mt-8 rounded-lg">
+            <motion.button
+            initial={{scale:0.8}}
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.3 }}
+              className="bg-green-600 text-sm lg:text-base text-white py-4 px-4 mt-8 rounded-lg"
+            >
               Make a reservation
-            </button>
+            </motion.button>
           </div>
         </div>
         <Image

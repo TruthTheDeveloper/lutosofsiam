@@ -9,9 +9,9 @@ const HomeHoursInfo = () => {
   });
   return (
     <div className="px-4 md:px-0">
-      <motion.div
+      <div
       ref={ref}
-        className="md:flex lg:w-[60%] bg-[#F5F8FD] mx-auto mt-12 mb-12 rounded-[5rem]"
+        className="md:flex lg:w-[60%] bg-[#F5F8FD] mx-auto mt-12 mb-12 rounded-xl md:rounded-[5rem]"
         animate={inView ? {
           scale: [0,0, 1],
           rotate: [0, 0, 360],
@@ -19,7 +19,7 @@ const HomeHoursInfo = () => {
         }:{}}
       >
         <Image
-          src="/image/discover-1.png"
+          src="/image/discover-7.png"
           //   sizes="100vw"
 
           height={560}
@@ -28,7 +28,7 @@ const HomeHoursInfo = () => {
           className="lg:-ml-48 mx-auto lg:mx-0 "
         />
 
-        <div className="  w-full lg:ml-12 text-center lg:text-left pb-8 px-2">
+        <div className="  w-full 2xl:ml-12 text-center lg:text-left pb-8 px-2">
           <h1 className="lg:text-4xl text-4xl font-bold mt-24 lg:mb-6">
             OPENING HOURS
           </h1>
@@ -61,7 +61,7 @@ const HomeHoursInfo = () => {
             - 12PM - 10PM
           </p>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };

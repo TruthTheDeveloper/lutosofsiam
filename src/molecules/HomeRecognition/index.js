@@ -43,7 +43,7 @@ const HomeRecognition = () => {
             Chef Saipin and Lotus of Siam have received several awards for their distinctive Northern Thai Cuisine
             </Fade></div> */}
       </div>
-      <div className="bg-green-500 rounded-xl h-[10rem] lg:w-[72%] mx-auto">
+      <div className="bg-green-500 md:rounded-xl h-[10rem] lg:w-[72%] mx-auto">
         <div className="flex justify-between pt-12 md:pt-0 lg:pt-6">
           {isWideEnough ? (
             <>

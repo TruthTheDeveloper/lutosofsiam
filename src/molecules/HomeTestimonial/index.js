@@ -32,7 +32,7 @@ const HomeTestimonial = () => {
     }
   };
   return (
-    <div className="mx-8 mt-14 lg:mt-0 pt-14">
+    <div className="mx-8 mt-14 lg:mt-0 pt-28">
       <h1 className="text-center text-2xl my-3 lg:mt-16 font-semibold">
         Testimonials
       </h1>
@@ -94,11 +94,11 @@ const HomeTestimonial = () => {
 
       <div>
         <div className="flex place-content-center   mx-4">
-          <div className=" border border-gray-400  w-12 h-12 rounded-full cursor-pointer" onClick={() => prev()}>
-            <HiChevronLeft className="text-4xl cursor-pointer text-center mt-1" />
+          <div className=" border border-gray-400  w-12 h-12 rounded-full cursor-pointer hover:bg-green-500 hover:text-white hover:border-green-500" onClick={() => prev()}>
+            <HiChevronLeft className="text-4xl cursor-pointer text-center mx-auto pt-3" />
           </div>
-          <div className="border border-gray-400  w-12 h-12 rounded-full mx-4" onClick={() => next()}>
-            <HiChevronRight className="text-4xl cursor-pointer text-center mt-1" />
+          <div className="border border-gray-400  w-12 h-12 rounded-full mx-4 hover:bg-green-500 hover:text-white hover:border-green-500" onClick={() => next()}>
+            <HiChevronRight className="text-4xl cursor-pointer text-center mx-auto pt-3" />
           </div>
         </div>
       </div>
