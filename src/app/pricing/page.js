@@ -1,6 +1,7 @@
 import { FaCircleCheck } from "react-icons/fa6";
 import { FaCheck } from "react-icons/fa";
 import { GoCheck } from "react-icons/go";
+import Link from "next/link";
 const Pricing = () => {
   return (
     <div
@@ -8,7 +9,9 @@ const Pricing = () => {
       className="min-h-screen bg-[white] text-text-black w-full overflow-x-hidden"
     >
       <div className="h-16">
-        <h1 className="text-lg mx-3 font-semibold py-4">Powered By TruthTheDeveloper</h1>
+        <h1 className="text-lg mx-3 font-semibold py-4">
+          Powered By TruthTheDeveloper
+        </h1>
       </div>
       <div className="md:px-24  pt-28">
         <div className="text-6xl  mb-4 font-semibold text-[#111727] leading-12 px-4">
@@ -24,14 +27,16 @@ const Pricing = () => {
               <p className="text-sm opacity-90">
                 Basic feature needed for your restaurant website
               </p>
-              <button className="text-center text-white px-[5.2rem] md:px-[4.5rem] lg:px-[5.2rem] rounded-md my-4 py-2  bg-[#111727]">
-                Contact Us
+              <button className="text-center font-semibold text-white px-[5.2rem] md:px-[4.5rem] lg:px-[5.2rem] rounded-md my-4 py-2  bg-[#111727]">
+                <Link href="mailto:henrysempire111@gmail.com">Contact Us</Link>
               </button>
             </div>
 
             <div className="opacity-90">
               <h1 className="text-sm">FEATURES</h1>
-              <p className="text-sm">Everything your website needs to upstart</p>
+              <p className="text-sm">
+                Everything your website needs to upstart
+              </p>
               <div className="text-xs py-1 pt-3 flex">
                 <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
                 <p>Interactive Menu System</p>
@@ -39,12 +44,12 @@ const Pricing = () => {
               <div className="text-xs py-1 flex">
                 <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
 
-                <p>Reservation feature</p>
+                <p>Reservation feature(outsource)</p>
               </div>
               <div className="text-xs py-1 flex">
                 <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
 
-                <p>Online ordering</p>
+                <p>Online ordering(outsource)</p>
               </div>
               <div className="text-xs py-1 flex">
                 <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
@@ -71,7 +76,7 @@ const Pricing = () => {
                 Elevate your website above normal
               </p>
               <button className="text-center text-black font-semibold px-[5.2rem] md:px-[4.5rem] lg:px-[5.2rem] rounded-md my-4 py-2 bg-white">
-                Contact Us
+                <Link href="mailto:henrysempire111@gmail.com">Contact Us</Link>
               </button>
             </div>
 
@@ -95,12 +100,27 @@ const Pricing = () => {
               <div className="text-xs py-1 flex">
                 <FaCheck className="bg-[#B0FF12] text-black border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
 
+                <p>Reservation System (in-house cart system)</p>
+              </div>
+              <div className="text-xs py-1 flex">
+                <FaCheck className="bg-[#B0FF12] text-black border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
+
                 <p>Food Image gallery</p>
               </div>
               <div className="text-xs py-1 flex">
                 <FaCheck className="bg-[#B0FF12] text-black border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
 
                 <p>A.I powered chatbot</p>
+              </div>
+              <div className="text-xs py-1 flex">
+                <FaCheck className="bg-[#B0FF12] text-black border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
+
+                <p>Online payment Integration</p>
+              </div>
+              <div className="text-xs py-1 flex">
+                <FaCheck className="bg-[#B0FF12] text-black border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
+
+                <p>Real time notification of website visitor</p>
               </div>
               <div className="text-xs py-1 flex">
                 <FaCheck className="bg-[#B0FF12] text-black border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
@@ -116,8 +136,8 @@ const Pricing = () => {
               <p className="text-sm opacity-90">
                 Power up your website to drive sales
               </p>
-              <button className="text-center text-white px-[5.2rem] md:px-[4.5rem] lg:px-[5.2rem] rounded-md my-2 py-2 bg-[#111727]">
-                Contact Us
+              <button className="text-center text-white px-[5.2rem] md:px-[4.5rem] lg:px-[5.2rem] rounded-md my-2 py-2 bg-[#111727] font-semibold">
+                <Link href="mailto:henrysempire111@gmail.com">Contact Us</Link>
               </button>
             </div>
 
@@ -153,6 +173,11 @@ const Pricing = () => {
 
                 <p>dispatch service integration</p>
               </div>
+              <div className="text-xs py-1 flex">
+                <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
+
+                <p>Personal mail system</p>
+              </div>
             </div>
           </div>
           {/* <div>
@@ -177,47 +202,47 @@ const Pricing = () => {
         </div>
 
         <div className="border rounded-xl shadow-md w-[18rem] px-4 py-4 my-8 mx-auto">
-            <div>
-              <p className="font-semibold">Enteprise plan</p>
-              {/* <h1 className="text-3xl font-semibold my-4">$3000</h1> */}
-              <p className="text-sm opacity-90">
-                Power up your website to drive sales
-              </p>
-              <button className="text-center font-semibold  px-[5.2rem] rounded-md my-2 py-2 bg-[#B0FF12]">
-                Contact Us
-              </button>
+          <div>
+            <p className="font-semibold">Enteprise plan</p>
+            {/* <h1 className="text-3xl font-semibold my-4">$3000</h1> */}
+            <p className="text-sm opacity-90">
+              Take your web powerup a bit further
+            </p>
+            <button className="text-center font-semibold  px-[5.2rem] rounded-md my-2 py-2 bg-[#B0FF12]">
+            <Link href="mailto:henrysempire111@gmail.com">Contact Us</Link>
+
+            </button>
+          </div>
+
+          <div className="opacity-90">
+            <h1 className="text-sm">FEATURES</h1>
+            <p className="text-sm">Everything in our premium plan plus</p>
+            <div className="text-xs py-1 pt-3 flex">
+              <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
+              <p>Staff managment system</p>
             </div>
+            <div className="text-xs py-1 flex">
+              <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
 
-            <div className="opacity-90">
-              <h1 className="text-sm">FEATURES</h1>
-              <p className="text-sm">Everything in our premium plan plus</p>
-              <div className="text-xs py-1 pt-3 flex">
-                <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
-                <p>Staff managment system</p>
-              </div>
-              <div className="text-xs py-1 flex">
-                <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
+              <p>Inventory managment system</p>
+            </div>
+            <div className="text-xs py-1 flex">
+              <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
 
-                <p>Inventory managment system</p>
+              <p>Mobile app development</p>
+            </div>
+            <div className="text-xs py-1 flex">
+              <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
 
-              </div>
-              <div className="text-xs py-1 flex">
-                <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
+              <p>Restuarant + hotel integration</p>
+            </div>
+            <div className="text-xs py-1 flex">
+              <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
 
-                <p>Mobile app development</p>
-              </div>
-              <div className="text-xs py-1 flex">
-                <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
-
-                <p>Restuarant + hotel integration</p>
-              </div>
-              <div className="text-xs py-1 flex">
-                <FaCheck className="bg-[#B0FF12] border-[#B0FF12] w-4 h-4 px-1 rounded-full mr-2" />
-
-                <p>Special Request</p>
-              </div>
+              <p>Special Request</p>
             </div>
           </div>
+        </div>
       </div>
     </div>
   );
