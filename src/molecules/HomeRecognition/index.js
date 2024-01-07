@@ -31,7 +31,7 @@ const HomeRecognition = () => {
           </div>
         
             <p
-            className=" md:my-6 text-center  text-sm md:text-base block lg:hidden "
+            className=" md:my-6 my-3  text-center  text-sm md:text-base block lg:hidden "
           >
             Chef Saipin and Lotus of Siam have received several awards for
             their distinctive Northern Thai Cuisine

@@ -21,7 +21,7 @@ const HomeNews = () => {
             alt="photo"
           />
           <div
-            className="lg:w-72  px-2  lg:ml-6 "
+            className="lg:w-72  md:px-2 px-10  lg:ml-6 "
             data-aos="zoom-in"
             data-aos-duration="900"
             data-aos-once
@@ -36,7 +36,7 @@ const HomeNews = () => {
           </div>
         </div>
 
-        <div className="mx-auto lg:flex mt-24 md:mt-0 lg:mt-0">
+        <div className="mx-auto md:px-2 px-10 lg:flex mt-24 md:mt-0 lg:mt-0">
           <Image
             src="/image/new-2.png"
             height={280}

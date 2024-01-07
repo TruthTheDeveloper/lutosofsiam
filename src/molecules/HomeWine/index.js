@@ -29,11 +29,14 @@ const HomeWine = () => {
           </Fade>
         </div>
 
-        <p className=" my-6 text-center  text-sm md:text-base lg:hidden block">
+        <p className=" md:my-6 my-2 text-center px-4  text-sm md:text-base lg:hidden block">
           Indulge in Our Exquisite Selection of Over 300 Fine Wines
         </p>
       </div>
-      <div className="md:flex place-content-center ">
+      <div className="md:flex place-content-center "
+              data-aos="zoom-in"
+
+      >
         <Image
           src="/image/wine-1.jpeg"
           //   sizes="100vw"
