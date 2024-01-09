@@ -1,6 +1,4 @@
-import { FaCircleCheck } from "react-icons/fa6";
 import { FaCheck } from "react-icons/fa";
-import { GoCheck } from "react-icons/go";
 import Link from "next/link";
 const Pricing = () => {
   return (
@@ -19,12 +17,12 @@ const Pricing = () => {
           <h1 className="pt-4">thats&apos;s perfect for you</h1>
         </div>
 
-        <div className="md:flex justify-between mt-24 ">
+        <div className="md:flex justify-between mt-24 2xl:px-32">
           <div className="border rounded-xl shadow-md w-[18rem] px-4 py-4 mx-auto md:mx-0">
             <div>
               <p className="font-semibold">Basic plan</p>
               <h1 className="text-3xl font-semibold my-4">$500</h1>
-              <p className="text-sm opacity-90">
+              <p className="text-sm ">
                 Basic feature needed for your restaurant website
               </p>
               <button className="text-center font-semibold text-white px-[5.2rem] md:px-[4.5rem] lg:px-[5.2rem] rounded-md my-4 py-2  bg-[#111727]">
@@ -32,7 +30,7 @@ const Pricing = () => {
               </button>
             </div>
 
-            <div className="opacity-90">
+            <div className="">
               <h1 className="text-sm">FEATURES</h1>
               <p className="text-sm">
                 Everything your website needs to upstart
@@ -72,7 +70,7 @@ const Pricing = () => {
             <div>
               <p className="font-semibold">Premium plan</p>
               <h1 className="text-3xl font-semibold my-4">$1000</h1>
-              <p className="text-sm opacity-90">
+              <p className="text-sm ">
                 Elevate your website above normal
               </p>
               <button className="text-center text-black font-semibold px-[5.2rem] md:px-[4.5rem] lg:px-[5.2rem] rounded-md my-4 py-2 bg-white">
@@ -80,7 +78,7 @@ const Pricing = () => {
               </button>
             </div>
 
-            <div className="opacity-90">
+            <div className="">
               <h1 className="text-sm">FEATURES</h1>
               <p className="text-sm">Everything in our Basic plan plus</p>
               <div className="text-xs py-1 pt-3 flex">
@@ -133,7 +131,7 @@ const Pricing = () => {
             <div>
               <p className="font-semibold">Promotion plan</p>
               <h1 className="text-3xl font-semibold my-4">$3000</h1>
-              <p className="text-sm opacity-90">
+              <p className="text-sm ">
                 Power up your website to drive sales
               </p>
               <button className="text-center text-white px-[5.2rem] md:px-[4.5rem] lg:px-[5.2rem] rounded-md my-2 py-2 bg-[#111727] font-semibold">
@@ -141,7 +139,7 @@ const Pricing = () => {
               </button>
             </div>
 
-            <div className="opacity-90">
+            <div className="">
               <h1 className="text-sm">FEATURES</h1>
               <p className="text-sm">Everything in our premium plan plus</p>
               <div className="text-xs py-1 pt-3 flex">
@@ -205,7 +203,7 @@ const Pricing = () => {
           <div>
             <p className="font-semibold">Enteprise plan</p>
             {/* <h1 className="text-3xl font-semibold my-4">$3000</h1> */}
-            <p className="text-sm opacity-90">
+            <p className="text-sm ">
               Take your web powerup a bit further
             </p>
             <button className="text-center font-semibold  px-[5.2rem] rounded-md my-2 py-2 bg-[#B0FF12]">
@@ -214,7 +212,7 @@ const Pricing = () => {
             </button>
           </div>
 
-          <div className="opacity-90">
+          <div className="">
             <h1 className="text-sm">FEATURES</h1>
             <p className="text-sm">Everything in our premium plan plus</p>
             <div className="text-xs py-1 pt-3 flex">
